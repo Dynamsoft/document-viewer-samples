@@ -20,8 +20,7 @@ export default function Viewer() {
     await DDV.Core.init();
 
     const viewer = new DDV.EditViewer({
-        container: 'container',
-        uiConfig: DDV.getDefaultUiConfig("editViewer") as UiConfig,
+        container: 'container'
     });
   }
 
