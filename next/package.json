@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "npm run copy-viewer-resources && next dev",
+    "build": "npm run copy-viewer-resources && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "copy-viewer-resources": "ncp node_modules/dynamsoft-document-viewer/dist public/dynamsoft-document-viewer"
   },
   "dependencies": {
     "dynamsoft-document-viewer": "^3.0.0",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "ncp": "^2.0.0",
     "typescript": "^5"
   }
 }
