@@ -1,4 +1,3 @@
-import type { UiConfig } from 'dynamsoft-document-viewer';
 import { Component } from '@angular/core';
 import { DDV } from 'dynamsoft-document-viewer';
 

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { DDV, type UiConfig } from 'dynamsoft-document-viewer'
+import { DDV } from 'dynamsoft-document-viewer'
 import 'dynamsoft-document-viewer/dist/ddv.css'
 
 onMounted(async () => {

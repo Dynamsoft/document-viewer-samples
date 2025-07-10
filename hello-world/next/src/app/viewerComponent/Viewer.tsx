@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { DDV, UiConfig } from "dynamsoft-document-viewer";
+import { DDV } from "dynamsoft-document-viewer";
 import "./viewer.css"
 import "dynamsoft-document-viewer/dist/ddv.css"
 
