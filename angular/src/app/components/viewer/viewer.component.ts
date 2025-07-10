@@ -19,7 +19,7 @@ export class ViewerComponent {
       alert(e.message)
     })
 
-    DDV.Core.license = 'DLS2eyJoYW5kc2hha2VDb2RlIjoiMTAwMjI3NzYzLU1UQXdNakkzTnpZekxYZGxZaTFVY21saGJGQnliMm8iLCJtYWluU2VydmVyVVJMIjoiaHR0cHM6Ly9tbHRzLmR5bmFtc29mdC5jb20iLCJvcmdhbml6YXRpb25JRCI6IjEwMDIyNzc2MyIsInN0YW5kYnlTZXJ2ZXJVUkwiOiJodHRwczovL3NsdHMuZHluYW1zb2Z0LmNvbSIsImNoZWNrQ29kZSI6LTE2NDMyMjI1ODl9';
+    DDV.Core.license = 'DLS2eyJoYW5kc2hha2VDb2RlIjoiMjM0ODEwLU1qTTBPREV3TFZSeWFXRnNVSEp2YWciLCJtYWluU2VydmVyVVJMIjoiaHR0cHM6Ly9tbHRzLmR5bmFtc29mdC5jb20iLCJvcmdhbml6YXRpb25JRCI6IjIzNDgxMCIsInN0YW5kYnlTZXJ2ZXJVUkwiOiJodHRwczovL3NsdHMuZHluYW1zb2Z0LmNvbSIsImNoZWNrQ29kZSI6LTQ1NDQzOTUwOH0';
     DDV.Core.engineResourcePath = '/lib/dynamsoft-document-viewer/engine';
     DDV.Core.loadWasm();
     await DDV.Core.init();
