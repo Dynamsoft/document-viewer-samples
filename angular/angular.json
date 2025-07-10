@@ -22,7 +22,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              { 
+                "glob": "**/*",
+                "input": "node_modules/dynamsoft-document-viewer/dist",
+                "output": "/lib/dynamsoft-document-viewer"
+              }
             ],
             "styles": [
               "src/styles.css",
