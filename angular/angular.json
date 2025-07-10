@@ -26,7 +26,7 @@
               { 
                 "glob": "**/*",
                 "input": "node_modules/dynamsoft-document-viewer/dist",
-                "output": "/lib/dynamsoft-document-viewer"
+                "output": "/dynamsoft-document-viewer"
               }
             ],
             "styles": [
