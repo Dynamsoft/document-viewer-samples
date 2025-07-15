@@ -1,8 +1,8 @@
 # Dynamsoft Document Viewer Samples
 
-This repository contains multiple samples that demonstrates how to use the [Dynamsoft Document Viewer](https://www.dynamsoft.com/document-viewer/docs/introduction/index.html?utm_source=sampleReadme) SDK.
+This repository contains multiple samples that demonstrate how to use the [Dynamsoft Document Viewer](https://www.dynamsoft.com/document-viewer/docs/introduction/index.html?utm_source=sampleReadme) SDK.
 
-## Request a trial license
+## Request a Trial License
 
 A default license is included which allows you to test the sample apps for up to 24 hours. You can [request a 30-day trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=ddv&utm_source=sampleReadme) via Dynamsoft website to evaluate further.
 
