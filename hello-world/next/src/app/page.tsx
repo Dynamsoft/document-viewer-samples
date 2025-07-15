@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 
 
 const ViewerComponent = dynamic(
-  () => import("./viewerComponent/Viewer"),
+  () => import("./components/Viewer"),
   {
     ssr: false
   }
