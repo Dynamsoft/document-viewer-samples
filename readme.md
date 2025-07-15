@@ -13,10 +13,10 @@ A default license is included which allows you to test the sample apps for up to
 Get the basic features of the library working with plain/native JavaScript or within a framework like Angular, React or Vue, etc.
 
 * [Hello World in Plain JavaScript](/hello-world/hello-world.html)
-* [Hello World in Angular](/hello-world/vue/)
+* [Hello World in Angular](/hello-world/angular/)
 * [Hello World in Vue](/hello-world/vue/)
 * [Hello World in React](/hello-world/react-vite/)
-* [Hello World in Next.js](/hello-world/vue/)
+* [Hello World in Next.js](/hello-world/next/)
 
 ## Documentation
 
