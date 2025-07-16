@@ -14,7 +14,7 @@ Environment: Node.js v20.9.0
 
 1. Apply for a [30-day free trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=ddv&deploymenttype=browser) of Dynamsoft Document Viewer.
 
-2. Update the license key in `src\app\viewerComponent\Viewer.tsx` file:
+2. Update the license key in `src\app\components\Viewer.tsx` file:
 
    ```javascript
    // your license key
