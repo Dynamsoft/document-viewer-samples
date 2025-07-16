@@ -19,7 +19,7 @@ export class ViewerComponent {
     })
 
     DDV.Core.license = 'DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9';
-    DDV.Core.engineResourcePath = '/dynamsoft-document-viewer/engine';
+    DDV.Core.engineResourcePath = '/dynamsoft-document-viewer/dist/engine';
     DDV.Core.loadWasm();
     await DDV.Core.init();
 
