@@ -1,11 +1,12 @@
-import { useEffect } from "react";
-import { DDV } from "dynamsoft-document-viewer";
+import { useEffect, useRef } from "react";
+import { DDV, EditViewer } from "dynamsoft-document-viewer";
 import "./viewer.css"
 import "dynamsoft-document-viewer/dist/ddv.css"
 
 export default function Viewer() {
-  let beenInitialized = false;
-
+  const viewer = useRef<EditViewer|null>(null);
+  const container = useRef<HTMLDivElement>(null);
+  const initializationStarted = useRef(false);
   const init = async () => {
     DDV.on('error', (e) => {
       alert(e.message)
@@ -19,21 +20,21 @@ export default function Viewer() {
     DDV.Core.loadWasm();
     await DDV.Core.init();
 
-    const viewer = new DDV.EditViewer({
-        container: 'container'
+    viewer.current = new DDV.EditViewer({
+      container: container.current!
     });
   }
 
   useEffect(() => {
-    if(!beenInitialized){
-      beenInitialized = true;
+    if (!initializationStarted.current) {
+      initializationStarted.current = true;
       init();
     }
   }, [])
 
   return (
     <>
-      <div id="container"></div>  
+      <div ref={container} id="container"></div>  
     </>
   )
 }

@@ -1,27 +1,24 @@
 {
   "name": "ddv-next",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run copy-viewer-resources && next dev",
-    "build": "npm run copy-viewer-resources && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "copy-viewer-resources": "ncp node_modules/dynamsoft-document-viewer/dist public/dynamsoft-document-viewer"
+    "lint": "next lint"
   },
   "dependencies": {
     "dynamsoft-document-viewer": "^3.0.0",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "ncp": "^2.0.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "copy-webpack-plugin": "^13.0.0",
     "typescript": "^5"
   }
 }
